@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+
+.container{
+    background-color: teal;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.img-style{
+    height: 150px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    /* margin: 10px; */
+    float: left;
+}
+
+.header-info{
+    float: left;
+    padding: 33px 25px;
+}
+
+.header-contact{
+    float: right;
+    padding: 39px 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.div-clear{
+    clear: both;
+}
+
+.hr{
+    margin: 10px;
+    border: 2px solid white;
+}
+
+.normal-hr{
+    margin: 15px;
+}
+
+.content{
+    margin: 12px;
+    padding-bottom: 12px;
+}
+
+#title{
+    margin-bottom: 7px ;
+}
+
+.left-div{
+    float: left;
+    width: 40%;
+    /* padding-top: 15px ; */
+}
+
+.right-div{
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+
+.right-div ul{
+    float: left;
+    width: 60%;
+    text-align: justify;
+    list-style-position: inside;
+}
+
+.ref-left{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.ref-right{
+    float: left;
+    width: 50%;
+}
+
+.footer-style{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
